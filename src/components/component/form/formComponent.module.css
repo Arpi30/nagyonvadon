@@ -1,0 +1,89 @@
+.inputContainer{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.select{
+    margin: 1rem 0;
+}
+.textarea {
+    max-width: 280px;
+    min-width: 280px;
+    max-height: 100px;
+}
+.captcha{
+    display: flex;
+    flex-direction: row; 
+}
+.uzenet{
+    display: flex;
+    flex-direction: column;
+    align-items: start;
+}
+.btn{
+    font-size: 1.3rem;
+    margin-top: 2rem;
+    border-radius: 5px;
+}
+.formInput {
+    display: flex;
+    flex-direction: row;
+    width: 280px;
+}
+.selectContainer{
+    max-width: 280px;
+    border-top: 2px solid green;
+}
+.age{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    width: 100%;
+}
+.ageAsk{
+    width: 280px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+.ageAsk label {
+    margin-right: 5px;
+}
+.ageAsk label span{
+    display: none;
+}
+.aszf{
+    width: 280px;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 1rem;
+}
+.aszf input{
+    margin: 0;
+    width: 0;
+}
+.aszf label span{
+    cursor: pointer;
+    display: inline-block;
+    text-align: center;
+    margin-left: 10px;
+    border: 2px solid green;
+    border-radius: 5px;
+    padding: 5px;
+    transition: all .2s ease;
+}
+
+.aszf label span:hover{
+    background: rgb(46 135 12);
+    color: rgb(255, 220, 146);
+}
+@media(max-width: 425px) {
+    .select{
+        display: flex;
+        flex-direction: column;
+    }
+}

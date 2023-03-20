@@ -1,0 +1,67 @@
+.navTag{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    transition: height .2s ease-in-out;
+}
+.navTag li{
+    margin-left: 5rem;
+}
+.hamburgerMenuContainer{
+    display: none;
+}
+.logo{
+    max-height: 5rem;
+        position: absolute;
+            top: -5px;
+}
+@media (max-width:850px) {
+    .navTagShowMenu {
+        min-height: 100vh;
+        display: flex;
+        position: absolute;
+        flex-direction: column;
+        top: 100%;
+        margin-top: 2px;
+        width: 100%;
+        left: 0;
+        background: rgb(98 158 73);
+        justify-content: start;
+        align-items: center;
+    }
+    .navTag li{
+        margin: 1rem 0 1rem 0
+    }
+    .hamburgerMenuContainer{
+        display: flex;
+        flex-direction: column;
+        justify-content: center
+    }
+    .hamburgerMenuContainer span {
+        transition: all .15s ease-in-out;
+        width: 30px;
+        height: 3px;
+        background: white;
+        margin-bottom: 8px;
+    }
+    .navTagLi {
+        display: none;
+    }
+    .span1{
+        position: relative;
+        transform: rotate(130deg);
+        margin: 0 !important;
+        top: -1px;
+    }
+    .span2{
+        margin: 0 !important;
+        position: relative;
+        transform: rotate(230deg);
+        bottom: 4px;
+    }
+    .span3{
+        margin: 0 !important;
+        transform: translateX(100px);
+
+    }
+}

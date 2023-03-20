@@ -1,0 +1,11 @@
+.li {
+    font-size: 1.2rem;
+    text-decoration: none;
+    color: white;
+    font-weight: 500;
+    cursor: pointer;
+    transition: all .2s ease-in-out;
+}
+.li:hover{
+    color: rgb(255, 220, 146);
+}

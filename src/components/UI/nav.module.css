@@ -1,0 +1,21 @@
+
+.nav{
+    position: relative;
+}
+.nav ul{
+    display: flex;
+    flex-direction: row;
+    list-style: none;
+    justify-content: right;
+    background: rgb(44 126 11);
+    margin: 0;
+    padding: 20px 10px;
+    border-bottom: 2px solid rgb(255, 220, 146);
+    padding-right: 3rem;
+    position: fixed;
+    z-index: 1;
+    width: 100%;
+    justify-content: space-between;
+    height: 75px;
+}
+

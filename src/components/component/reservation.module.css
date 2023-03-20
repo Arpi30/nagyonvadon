@@ -1,0 +1,24 @@
+.nav{
+    margin: 7rem auto 3rem auto;
+    text-align: center;
+}
+.nav a{
+    font-size: 1.2rem;
+    margin: 1rem auto;
+    list-style: none;
+    text-decoration: none;
+    color: rgb(135 188 68);
+    font-weight: 500;
+    padding: 10px;
+    border-radius: 10px;
+    background: rgb(217, 255, 203);
+    transition: all .3s ease;
+    display: block;
+    width: 200px;
+}
+.nav a:hover{
+    color: rgb(98, 194, 79);
+}
+.logo{
+    max-width: 90%;
+}

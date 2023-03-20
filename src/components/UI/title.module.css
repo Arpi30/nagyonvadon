@@ -1,0 +1,32 @@
+h1 {
+    text-align: center;
+    font-size: 4em;
+    color: rgb(94 175 62);
+    position: relative;
+    margin: 2rem 0 10rem;
+}
+h1::before {
+    content: '';
+    width: 50%;
+    position: absolute;
+    bottom: -10px;
+    left: 0;
+    height: 2px;
+    background-color: rgb(94 175 62);
+    transform: translate(50%, -50%);
+}
+h1::after {
+    content: '';
+    width: 15%;
+    position: absolute;
+    bottom: -15px;
+    left: 43%;
+    height: 8px;
+    background-color: rgb(94 175 62);
+}
+@media (max-width: 650px) {
+    h1{
+        font-size: 2em;
+        margin: 2rem 0 5rem;
+    }
+}

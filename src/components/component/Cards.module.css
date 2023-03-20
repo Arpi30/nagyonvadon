@@ -1,0 +1,25 @@
+.cards{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    max-width: 100vw;
+    padding: 0 40px;
+}
+.container{
+    margin-bottom: 5rem;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+@media (max-width: 425px) {
+    .cards{
+        padding: 0;
+    }
+}
+@media (max-width: 600px) {
+    .container{
+        margin: 0;
+    }
+}

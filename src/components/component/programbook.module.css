@@ -1,0 +1,41 @@
+.container{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.mapContainer{
+    width: 680px;
+}
+.mapContainer p{
+    color: rgb(94 175 62);
+    font-size: 1.5rem;
+}
+.listContainer:first-child::before{
+    position: absolute;
+    content: '';
+    display: none;
+}
+.programContainer ul li {
+    width: 680px;
+    display: flex;
+    align-items: center;
+    font-size: 14px;
+}
+
+@media(max-width: 750px) {
+    .mapContainer {
+        width: 415px;
+    }
+}
+@media(max-width: 425px) {
+    .mapContainer {
+        width: 350px;
+    }
+}
+@media(max-width: 320px) {
+    .mapContainer{
+        width: 300px;
+        font-size: 12px;
+    }
+}

@@ -1,0 +1,15 @@
+
+.logo p {
+    color: #f3c86b;
+    z-index: 99;
+    font-family: 'Pacifico', cursive;
+    font-size: 1rem;
+    padding-left: 15px;
+    display: flex;
+    align-items: center;
+    flex-direction: row;
+    cursor: pointer;
+}
+.logo p::after {
+    content: 'Vadon';
+}
